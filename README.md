@@ -18,7 +18,8 @@ This project is a high-performance image generation studio developed as part of 
 Ensure you have Python installed, then install the required dependencies:
 
 
-     pip install -r requirements.txt
+    ```bash
+ pip install -r requirements.txt
 
  
 ##  Configuration
