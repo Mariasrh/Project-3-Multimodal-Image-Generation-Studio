@@ -18,7 +18,7 @@ This project is powered by DecodeLabs. It is a high-performance image generation
 Ensure you have Python installed, then install the required dependencies:
 
 
-    ```
+    
      pip install -r requirements.txt
 
 
@@ -26,20 +26,20 @@ Ensure you have Python installed, then install the required dependencies:
 Create a `.env` file in the root directory.
 Add your Stability AI API key:
 
-    ```
+    
     STABILITY_API_KEY=your_actual_api_key_here
 
 ## Usage
 Console Version
 Run the script for a CLI-based experience:
 
-    ```
+    
     python generator.py
 
 ## GUI Version 
 Run the application for a modern interface:
 
-    ```
+    
     python gui_generator.py
 
 ## Security & Compliance
