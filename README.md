@@ -1,6 +1,6 @@
 # Multimodal Image Generation Studio
 
-This project is a high-performance image generation studio developed as part of the "Generative AI Project 3" industrial training kit. It leverages the Stability AI API to transform natural language prompts into high-quality digital artwork.
+This project is powered by DecodeLabs. It is a high-performance image generation studio developed as part of the "Generative AI Project 3" industrial training kit. It leverages the Stability AI API to transform natural language prompts into high-quality digital artwork.
 
 ##  Core Features
 - **Visual Orchestration**: Translates text descriptions into digital imagery.
