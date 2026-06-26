@@ -8,7 +8,7 @@ This project is a high-performance image generation studio developed as part of 
 - **Split-Timeout Strategy**: Configured with `(3.05s, 60s)` timeouts to handle network and inference phases independently.
 - **Robust Exception Handling**: Adheres to the Exception Handling Matrix (ConnectTimeout vs ReadTimeout).
 
-## 🛠Tech Stack
+## Tech Stack
 - **API**: Stability AI (Stable Image Core)
 - **GUI**: CustomTkinter
 - **Language**: Python 3.x
@@ -16,10 +16,8 @@ This project is a high-performance image generation studio developed as part of 
 
 ##  Prerequisites
 Ensure you have Python installed, then install the required dependencies:
-
- 
-    ```bash
-    pip install -r requirements.txt
+     ```bash
+     pip install -r requirements.txt
 
  
 ##  Configuration
