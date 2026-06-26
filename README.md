@@ -17,9 +17,11 @@ This project is a high-performance image generation studio developed as part of 
 ##  Prerequisites
 Ensure you have Python installed, then install the required dependencies:
 
-     ```bash
-     pip install -r requirements.txt
+ 
+    ```bash
+ pip install -r requirements.txt
 
+ 
 ##  Configuration
 Create a `.env` file in the root directory.
 Add your Stability AI API key:
