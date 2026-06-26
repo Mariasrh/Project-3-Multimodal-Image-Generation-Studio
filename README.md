@@ -18,13 +18,35 @@ This project is a high-performance image generation studio developed as part of 
 Ensure you have Python installed, then install the required dependencies:
 
 
-    ```bash
- pip install -r requirements.txt
+    ```
+     pip install -r requirements.txt
 
- 
+
 ##  Configuration
 Create a `.env` file in the root directory.
 Add your Stability AI API key:
 
-```plaintext
-STABILITY_API_KEY=your_actual_api_key_here
+    ```
+    STABILITY_API_KEY=your_actual_api_key_here
+
+## Usage
+Console Version
+Run the script for a CLI-based experience:
+
+    ```
+    python generator.py
+
+## GUI Version 
+Run the application for a modern interface:
+
+    ```
+    python gui_generator.py
+
+## Security & Compliance
+This project strictly follows the Industrial Training Kit blueprints:
+
+No hardcoded credentials: Managed via `.env`.
+
+Git Security: `.gitignore` prevents sensitive files from being pushed to version control.
+
+Network Resilience: Implements the Split-Timeout strategy to prevent system resource drains and hanging requests.
